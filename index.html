@@ -57,7 +57,7 @@ function draw() {
    
     /* Set up values for the "a_texCoords" attribute */
    
-    const  texCoords = new Float32Array( [ 0,0, 4,0, 2,4 ] );
+    const  texCoords = new Float32Array( [ 1,1, 4,0, 2,4 ] );
 
     gl.bindBuffer(gl.ARRAY_BUFFER, a_texCoords_buffer);
     gl.bufferData(gl.ARRAY_BUFFER, texCoords, gl.STREAM_DRAW);
